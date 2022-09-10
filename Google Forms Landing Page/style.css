@@ -1,0 +1,17 @@
+body {
+  background-color: #f0ebf8;
+}
+.header {
+  height: 135px;
+  width: 767px;
+  margin: auto;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.topdiv {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 10px;
+  background-color: #673ab7;
+}
