@@ -1,6 +1,7 @@
 body {
   background-color: #f0ebf8;
 }
+
 .header {
   height: 135px;
   width: 767px;
@@ -8,10 +9,32 @@ body {
   background-color: white;
   margin-top: 40px;
   border-radius: 10px;
+  text-align: center;
 }
+#headerCard #hr {
+  width: 720px;
+
+  background-color: rgb(224, 224, 224);
+  margin: auto;
+  height: 1px;
+}
+
 .topdiv {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 10px;
   background-color: #673ab7;
+}
+.TextBox {
+  margin-top: 10px;
+  width: 720px;
+  outline: none;
+  border: none;
+}
+#headerbox {
+  font-size: x-large;
+  height: 30px;
+}
+#descbox{
+  
 }
