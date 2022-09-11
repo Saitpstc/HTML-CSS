@@ -3,7 +3,8 @@ body {
 }
 
 .header {
-  height: 135px;
+  /* todo: change this to 135 when you add on click event */
+  height: 215px;
   width: 767px;
   margin: auto;
   background-color: white;
@@ -13,12 +14,20 @@ body {
 }
 #headerCard #hr {
   width: 720px;
-
   background-color: rgb(224, 224, 224);
   margin: auto;
   height: 1px;
 }
-
+.fontSettings {
+  border: 2px solid red;
+  width: 720px;
+  margin: auto;
+  height: 40px;
+}
+.fontSettings img {
+  max-height: 100%;
+  float: left;
+}
 .topdiv {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -35,6 +44,7 @@ body {
   font-size: x-large;
   height: 30px;
 }
-#descbox{
-  
+.fontSettings img:hover {
+  background-color: #f0ebeb;
+  border-radius: 7px;
 }
